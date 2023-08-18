@@ -11,6 +11,7 @@
         "api_password.$": "$.api_password"
       },
       "Parameters": {
+        "API_URL.$": "$._manageiq_api_url",
         "PROVIDER_TYPE.$": "ManageIQ::Providers::Vmware::InfraManager"
       }
     }
